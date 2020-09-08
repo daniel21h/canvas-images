@@ -67,7 +67,7 @@ footer {
 }
 
 footer::after {
-    content: "Feito com ♥️ por Mayk Brito";
+    content: "Feito com ♥️ por Daniel Hessel";
     opacity: 0.6;
     font-size: 0.8rem;
 }
@@ -78,7 +78,7 @@ button {
   width: 100%;
 
   padding: .8rem 1.6rem;
-  
+
   overflow: hidden;
 
   position: relative;
@@ -111,3 +111,10 @@ img {
 
 
 /* Image Crop */
+#photo-file {
+  display: none;
+}
+
+#photo-preview {
+  margin-top: .8rem;
+}
