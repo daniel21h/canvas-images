@@ -65,6 +65,9 @@ const events = {
   },
   mouseup() {
     startSelection = false
+
+    relativeEndX = event.layerX
+    relativeEndY = event.layerY
   }
 }
 
